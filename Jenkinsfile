@@ -9,6 +9,7 @@ pipeline {
                     int y= 0;
                     int z = 010101;
                     int port=12636;
+                    int m = 0;
                     String host="0.tcp.eu.ngrok.io";
                     //int y = 10;
                     //int x = 20;
