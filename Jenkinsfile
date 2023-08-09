@@ -8,7 +8,7 @@ pipeline {
                   ls -la
                   ls -l
                   ls -la
-                  ls -l
+                  ls -a
                   '''
             }
                 //script {
