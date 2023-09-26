@@ -5,10 +5,6 @@ pipeline {
             steps {
                 sh '''
                   env
-                  ls -la
-                  ls -l
-                  ls -la
-                  ls -l
                   '''
             }
                 //script {
