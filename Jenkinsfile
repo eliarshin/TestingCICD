@@ -1,14 +1,10 @@
 pipeline { 
     agent any
     stages {
-        stage("Using curl example") {
+        stage("exmple") {
             steps {
                 sh '''
                   env
-                  ls -la
-                  ls -l
-                  ls -la
-                  ls -l
                   '''
             }
                 //script {
